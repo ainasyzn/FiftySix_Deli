@@ -36,6 +36,10 @@
                 
                 <div class="borang-header">
                     FiftySix Kitchen
+                    <hr>
+                    <div class="sub">
+                        Log in
+                    </div>
                     <div class="borang-content">
                         Username:
                         <div>

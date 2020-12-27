@@ -32,10 +32,12 @@
         </header>
        
             <div class="signup-box">
-                <img src="image/login.jpg">
-                
                 <div class="borang-header">
                     FiftySix Kitchen
+                    <hr>
+                    <div class="sub">
+                        Sign up
+                    </div>
                     <div class="borang-content">
                         Full name:
                         <div class="formgap">
@@ -59,7 +61,7 @@
                         Confirm Password:
                         <div class="formgap">
                             <input type="text" name="username"><br>
-                        </div>
+                        </div><br>
                         
                         <p>Already have an account? <a href="login.jsp">Log in</a></p>
                         
