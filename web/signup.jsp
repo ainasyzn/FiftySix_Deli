@@ -1,5 +1,5 @@
 <%-- 
-    Document   : login
+    Document   : signup
     Created on : 27 Dec 2020, 12:06:32 am
     Author     : Aina Syazana
 --%>
@@ -12,7 +12,7 @@
     <title>Dashboard</title>
     <!--icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_signup.css">
 </head>
 
 <body>
@@ -31,25 +31,39 @@
             </ul>
         </header>
        
-            <div class="login-box">
+            <div class="signup-box">
                 <img src="image/login.jpg">
                 
                 <div class="borang-header">
                     FiftySix Kitchen
                     <div class="borang-content">
-                        Username:
-                        <div>
-                            <input type="text" name="username">
-                        </div><br>
+                        Full name:
+                        <div class="formgap">
+                            <input type="text" name="username"><br>
+                        </div>
+                        E-mail address:
+                        <div class="formgap">
+                            <input type="text" name="username"><br>
+                        </div>
+                        
+                        Phone number:
+                        <div class="formgap">
+                            <input type="text" name="username"><br>
+                        </div>
                         
                         Password:
-                        <div>
-                            <input type="text" name="pasword">
-                        </div><br>
+                        <div class="formgap">
+                            <input type="text" name="username"><br>
+                        </div>
                         
-                        <p>Don't have an account yet? <a href="signup.jsp">Sign up</a></p>
+                        Confirm Password:
+                        <div class="formgap">
+                            <input type="text" name="username"><br>
+                        </div>
                         
-                        <button class="button btn1">Log in</button>
+                        <p>Already have an account? <a href="login.jsp">Log in</a></p>
+                        
+                        <button class="button btn1">Sign up</button>
                     </div>
                 </div>
             </div>

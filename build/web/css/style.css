@@ -136,24 +136,23 @@ hr {
 /*smua button use this*/
 .button {
     border: none;
-    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 55px;
+    margin-top: 5px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border-radius: 37px;
+    border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     color: #FFF;
-    font-size: 16px;
-    font-weight: 5px;
+    font-size: 12px;
 }
 
 .btn1 {
-    background-color: #A64AC9;
-    position: fixed;
-    bottom: 25px;
-    right: 70px;
-    padding-left: 50;
-    padding-right: 50px;
+    background-color: #8DA58D;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .btnCancel {
@@ -213,7 +212,7 @@ li {
     padding: 25px;
 }
 
-a {
+ul li a {
     color: #FFF;
 }
 
@@ -226,12 +225,41 @@ a {
     display: inline-block;
 }
 
-.login-box .borang {
+.login-box .borang-header {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
     padding-top: 62px;
 }
+
+.login-box .borang-content {
+    font-size: 13px;
+    font-weight: lighter;
+    padding-top: 62px;
+    text-align: left;
+    padding-left: 520px;
+}
+
+.login-box .borang-content1 {
+    font-size: 13px;
+    font-weight: lighter;
+    padding-top: 62px;
+    text-align: left;
+    padding-left: 450px;
+}
+
+.borang-content p{
+    font-size: 11px;
+}
+
+/* login */
+.login-box input[type=text] {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+
 
 img {
     width: 400px;

@@ -1,5 +1,5 @@
 <%-- 
-    Document   : index
+    Document   : login
     Created on : 27 Dec 2020, 12:06:32 am
     Author     : Aina Syazana
 --%>
@@ -34,8 +34,23 @@
             <div class="login-box">
                 <img src="image/login.jpg">
                 
-                <div class="borang">
+                <div class="borang-header">
                     FiftySix Kitchen
+                    <div class="borang-content">
+                        Username:
+                        <div>
+                            <input type="text" name="username">
+                        </div><br>
+                        
+                        Password:
+                        <div>
+                            <input type="text" name="pasword">
+                        </div><br>
+                        
+                        <p>Don't have an account yet? <a href="signup.jsp">Sign up</a></p>
+                        
+                        <button class="button btn1">Log in</button>
+                    </div>
                 </div>
             </div>
         
