@@ -12,7 +12,7 @@
     <title>Dashboard</title>
     <!--icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -30,9 +30,15 @@
                 <li><a href="#" class="active">Log in</a></li>
             </ul>
         </header>
-        <main>
-            test
-        </main>
+       
+            <div class="login-box">
+                <img src="image/login.jpg">
+                
+                <div class="borang">
+                    FiftySix Kitchen
+                </div>
+            </div>
+        
     </div>
 </body>
 </html>

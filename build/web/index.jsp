@@ -12,7 +12,7 @@
     <title>Dashboard</title>
     <!--icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
             </ul>
         </header>
         <main>
-            test
+          
         </main>
     </div>
 </body>
