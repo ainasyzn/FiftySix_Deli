@@ -32,41 +32,41 @@
         </header>
        
             <div class="signup-box">
+                <img src="image/login.jpg">
+                
                 <div class="borang-header">
                     FiftySix Kitchen
-                    <hr>
-                    <div class="sub">
-                        Sign up
-                    </div>
+                   <form name="signup" action="customerController" method="POST">
                     <div class="borang-content">
                         Full name:
                         <div class="formgap">
-                            <input type="text" name="username"><br>
+                            <input type="text" name="custName"><br>
                         </div>
                         E-mail address:
                         <div class="formgap">
-                            <input type="text" name="username"><br>
+                            <input type="text" name="email"><br>
                         </div>
                         
                         Phone number:
                         <div class="formgap">
-                            <input type="text" name="username"><br>
+                            <input type="text" name="phoneNo"><br>
                         </div>
                         
                         Password:
                         <div class="formgap">
-                            <input type="text" name="username"><br>
+                            <input type="text" name="password"><br>
                         </div>
                         
-                        Confirm Password:
+                        <!--Confirm Password:
                         <div class="formgap">
-                            <input type="text" name="username"><br>
-                        </div><br>
+                            <input type="text" name="confirm-password"><br>
+                        </div>-->
                         
                         <p>Already have an account? <a href="login.jsp">Log in</a></p>
                         
                         <button class="button btn1">Sign up</button>
                     </div>
+                   </form>
                 </div>
             </div>
         
