@@ -25,7 +25,7 @@
             </div>
             <ul>
                 <li><a href="index.jsp">Home</a></li>
-                <li><a href="#news">Menu</a></li>
+                <li><a href="menu.jsp">Menu</a></li>
                 <li><a href="#contact">About Us</a></li>
                 <li><a href="#" class="active">Log in</a></li>
             </ul>

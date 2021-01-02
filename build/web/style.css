@@ -70,14 +70,13 @@ and open the template in the editor.
     padding-bottom: 30px;
     text-align: center;
 }
-/*kalau perlu guna
+/*kalau perlu guna*/
 
 img {
     border-radius: 50%;
     height: 74px;
     width: 72px;
 }
-*/
 
 .user-image {
     padding-top: 20px;
@@ -130,33 +129,30 @@ h5{
 
 /*divider*/
 hr {
-    border-top: 2px solid var(--text-grey);
-    width: 53px;
-    position: fixed;
-    left: 880px;
+    border-top: 1px solid #DBD5D5;
 }
-
 
 /*smua button use this*/
 .button {
     border: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 55px;
-    margin-top: 5px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 37px;
     font-family: 'Poppins', sans-serif;
     color: #FFF;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 5px;
 }
 
 .btn1 {
-    background-color: #8DA58D;
-    padding-left: 20px;
-    padding-right: 20px;
+    background-color: #A64AC9;
+    position: fixed;
+    bottom: 25px;
+    right: 70px;
+    padding-left: 50;
+    padding-right: 50px;
 }
 
 .btnCancel {
@@ -166,6 +162,44 @@ hr {
 .btnDelete {
     background-color: #FF0000;
 }
+/*
+.sorting {
+    left: 500;
+    border-radius: 5px;
+    width: 700px;
+    height: 76px;
+    background-color: #FFF;
+    box-shadow: 0 4px 2px -2px rgb(131, 128, 128);
+    position: fixed;
+    top: 72;
+    left: 460;
+    right: 500;
+    display: inline-block;
+}
+
+.sorting .quizTot {
+    text-align: center;
+    height: 76px;
+    width: 156px;
+    padding: 30px;
+    border-right: 1px solid  #DBD5D5;
+    float: left;
+}
+
+.sorting .sortBy {
+    width: 545px;
+    height: 76px;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 146px;
+}
+
+.sorting .sortBy p {
+    display:inline;
+    padding: 10px;
+}
+*/
 
 ul {
     list-style-type: none;
@@ -178,64 +212,8 @@ li {
     padding: 25px;
 }
 
-ul li a {
+a {
     color: #FFF;
-}
-
-.login-box {
-    margin-top:160px;
-    margin-left: 185px;
-    height: 400px;
-    width: 800px;
-    background-color: #EAD3A7;
-    display: inline-block;
-}
-
-.login-box .borang-header {
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 62px;
-}
-
-.login-box .borang-content {
-    font-size: 13px;
-    font-weight: lighter;
-    padding-top: 50px;
-    text-align: left;
-    padding-left: 520px;
-}
-
-.login-box .borang-content1 {
-    font-size: 13px;
-    font-weight: lighter;
-    padding-top: 62px;
-    text-align: left;
-    padding-left: 450px;
-}
-
-.login-box .sub {
-    font-size: 13px;
-    padding-left: 535px;
-}
-
-.borang-content p{
-    font-size: 11px;
-}
-
-/* login */
-.login-box input[type=text] {
-    border-radius: 5px;
-    border: none;
-    padding: 5px 10px;
-}
-
-
-
-img {
-    width: 400px;
-    height: 400px;
-    float: left;
 }
 
 

@@ -24,9 +24,9 @@
                 </h5>
             </div>
             <ul>
-                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#" class="active">Home</a></li>
                 <li><a href="menu.jsp">Menu</a></li>
-                <li><a href="#contact">About Us</a></li>
+                <li><a href="#">About Us</a></li>
                 <li><a href="login.jsp">Log in</a></li>
             </ul>
         </header>

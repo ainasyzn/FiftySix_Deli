@@ -46,7 +46,7 @@ and open the template in the editor.
     padding: 0rem 1rem;
 }
 
-.siderbar-menu {
+.sidebar-menu {
     padding: 1rem;
 }
 
@@ -124,18 +124,25 @@ h5{
 }
 
 /*utk current page*/
+.category .active {
+    padding-bottom: 13px;
+    border-bottom: 3px solid #E0C180;
+}
+
+.category .active a{
+    padding-bottom: 13px;
+    border-bottom: 3px solid #E0C180;
+    color: #CA8544;
+}
+
 .active {
     color: #E0C180;
 }
 
 /*divider*/
 hr {
-    border-top: 2px solid var(--text-grey);
-    width: 53px;
-    position: fixed;
-    left: 880px;
+    border-top: 1px solid #DBD5D5;
 }
-
 
 /*smua button use this*/
 .button {
@@ -151,12 +158,22 @@ hr {
     font-family: 'Poppins', sans-serif;
     color: #FFF;
     font-size: 12px;
+    outline: none;
+    transition-duration: 0.4s;
 }
 
 .btn1 {
     background-color: #8DA58D;
     padding-left: 20px;
     padding-right: 20px;
+    float: right;
+}
+
+.btn1:hover {
+    background-color: #7A907A;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
 }
 
 .btnCancel {
@@ -178,7 +195,7 @@ li {
     padding: 25px;
 }
 
-ul li a {
+a {
     color: #FFF;
 }
 
@@ -191,55 +208,93 @@ ul li a {
     display: inline-block;
 }
 
-.login-box .borang-header {
+.login-box .borang {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
     padding-top: 62px;
 }
 
-.login-box .borang-content {
-    font-size: 13px;
-    font-weight: lighter;
-    padding-top: 50px;
-    text-align: left;
-    padding-left: 520px;
-}
-
-.login-box .borang-content1 {
-    font-size: 13px;
-    font-weight: lighter;
-    padding-top: 62px;
-    text-align: left;
-    padding-left: 450px;
-}
-
-.login-box .sub {
-    font-size: 13px;
-    padding-left: 535px;
-}
-
-.borang-content p{
-    font-size: 11px;
-}
-
-/* login */
-.login-box input[type=text] {
-    border-radius: 5px;
-    border: none;
-    padding: 5px 10px;
-}
-
-
-
-img {
+.login-box img {
     width: 400px;
     height: 400px;
     float: left;
 }
+.menu p{
+    font-size:24px;
+}
+.menu hr{
+    width:2%;
+    border:2px solid black;
+}
+
+.category{
+    background-color:#f7f3f0; 
+    height:50px;
+}
+
+.category ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.category li{
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 13px;
+}
+
+.category a{
+    color: var(--text-grey);
+}
+
+.menus{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+.single-menu{
+  flex-basis:480px;
+  margin-top:60px;
+  margin-bottom:40px;
+  padding-bottom:40px;
+  border-bottom:1px solid #ddd;
+  display:flex;
+  border: none;
+  flex-direction:row;
+  align-items:center;
+}
 
 
+.single-menu:nth-child(5), .single-menu:nth-child(6){
+  border-bottom:0;
+}
 
-
+.single-menu:hover img{
+  border-radius:0;
+}
+.single-menu img{
+  max-width:180px;
+  margin-right:30px;
+  border-radius:50%;
+  border:1px solid #ddd;
+  padding:3px;
+  transition:.5s;
+}
+.single-menu h4{
+  text-transform:capitalize;
+  font-size:18px;
+  border-bottom:1px dashed #333;
+  margin-bottom:5px;
+  padding-bottom:5px;
+}
+.single-menu h4 span{
+  float:right;
+  color:#ff7720;
+  font-style:italic;
+}
 
 

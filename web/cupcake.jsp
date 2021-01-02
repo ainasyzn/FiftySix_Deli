@@ -10,9 +10,9 @@
     <head>
         
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>MENU:Cup Cake</title>
+        <title>FiftySix | Menu</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/menu.css">
     </head>
     <body>
         <div class="main-content">
@@ -36,23 +36,22 @@
             <hr>
             </div>
             <br>
-            <div class="categorycup" >
+            <div class="category" >
             <ul>
                 <li><a href="menu.jsp" >Whole Cake</a></li>
-                <li><a href= "#"class="active">Cup Cake</a></li>
+                <li class="active"><a href= "#">Cup Cake</a></li>
                 <li><a href="dessert.jsp">Dessert</a></li>
                 <li><a href="cookies.jsp" >Cookies</a></li>
             </ul>
-                <hr>
+                
             </div>
-           <div class="wrapper">
             <div class="menus">
             <div class="single-menu">
                 <img src="image/cupcake.JPG" alt="">
                 <div class="menu-content">
                     <h4>Cupcake <span>$45</span></h4>
                     <p>Chocolate cake topped with chocolate ganache, strawberries and pomegranate .</p><br>
-                    <button type="button">Add to cart</button>
+                    <button class="button btn1">Add to cart</button>
                 </div>
             </div>
             <div class="single-menu">
@@ -60,7 +59,7 @@
                 <div class="menu-content">
                     <h4>Red Velvet Cupcake <span>$45</span></h4>
                     <p>A great combination of chocolate and lemon that will shock whoever eat it, a really tasty cake.</p><br>
-                    <button type="button">Add to cart</button>
+                    <button class="button btn1">Add to cart</button>
                 </div>
             </div>
             <div class="single-menu">
@@ -68,7 +67,7 @@
                 <div class="menu-content">
                     <h4>Pavlova Cupcake <span>$45</span></h4>
                     <p>Pandan and Gula Melaka origin from Melaka with a delicious taste.</p><br>
-                    <button type="button">Add to cart</button>
+                    <button class="button btn1">Add to cart</button>
                 </div>
             </div>
             <div class="single-menu">
@@ -76,7 +75,7 @@
                 <div class="menu-content">
                     <h4>Chocolate Cupcake <span>$45</span></h4>
                     <p>with a bit of our own touch! —homemade strawberry compote.</p><br>
-                    <button type="button">Add to cart</button>
+                    <button class="button btn1">Add to cart</button>
                 </div>
             </div>
             <div class="single-menu">
@@ -84,7 +83,7 @@
                 <div class="menu-content">
                     <h4>Victoria Sandwich Cake <span>$45</span></h4>
                     <p>with our homemade strawberry compote .</p><br>
-                    <button type="button">Add to cart</button>
+                    <button class="button btn1">Add to cart</button>
                 </div>
             </div>
             <div class="single-menu">
@@ -92,13 +91,10 @@
                 <div class="menu-content">
                     <h4>Sirap Bandung Cake <span>$45</span></h4>
                     <p>With a high grade of sirap with great taste.</p><br>
-                    <button type="button">Add to cart</button>
+                    <button class="button btn1">Add to cart</button>
                 </div>
             </div>
-        </div>
-    </div>
-            
-            
+        </div>       
         </main>
     </div>
     </body>

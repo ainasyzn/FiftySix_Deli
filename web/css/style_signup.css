@@ -24,65 +24,6 @@ and open the template in the editor.
     box-sizing: border-box;
 }
 
-/*kalau perlu guna*/
-.sidebar {
-    height: calc(100% - 60px);
-    width: 270px;
-    position: fixed;
-    left: 0;
-    top: 78px;
-    z-index: 100;
-    background: #fff;
-    color: var(--text-grey);
-    overflow-y: auto;
-    box-shadow: -5px 0 15px 0 rgb(54, 54, 54);
-}
-
-.sidebar-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 0rem 1rem;
-}
-
-.siderbar-menu {
-    padding: 1rem;
-}
-
-.sidebar li {
-    text-align: center;
-    padding-top: 13px;
-    padding-bottom: 13px;
-}
-
-.sidebar a {
-    color: var(--text-grey);
-    font-size: .9rem;
-}
-
-.sidebar a span:last-child {
-    padding-left: .6rem;
-}
-
-.sidebar-user {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-}
-/*kalau perlu guna
-
-img {
-    border-radius: 50%;
-    height: 74px;
-    width: 72px;
-}
-*/
-
-.user-image {
-    padding-top: 20px;
-}
-
 .main-content {
     position: relative;
     padding-left: 80px;
@@ -131,11 +72,9 @@ h5{
 /*divider*/
 hr {
     border-top: 2px solid var(--text-grey);
+    margin-left: 275px;
     width: 53px;
-    position: fixed;
-    left: 880px;
 }
-
 
 /*smua button use this*/
 .button {
@@ -157,6 +96,7 @@ hr {
     background-color: #8DA58D;
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: 65px;
 }
 
 .btnCancel {
@@ -182,61 +122,51 @@ ul li a {
     color: #FFF;
 }
 
-.login-box {
-    margin-top:160px;
-    margin-left: 185px;
-    height: 400px;
-    width: 800px;
+.signup-box {
+    margin-top: 110px;
+    margin-left: 330px;
+    height: 505px;
+    width: 520px;
     background-color: #EAD3A7;
     display: inline-block;
 }
 
-.login-box .borang-header {
+.signup-box .borang-header {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
-    padding-top: 62px;
+    padding-top: 45px;
 }
 
-.login-box .borang-content {
+.signup-box .sub {
+    font-size: 13px;
+    padding-left: 170px;
+}
+
+.signup-box .borang-content {
     font-size: 13px;
     font-weight: lighter;
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: left;
-    padding-left: 520px;
+    padding-left: 150px;
 }
 
-.login-box .borang-content1 {
-    font-size: 13px;
-    font-weight: lighter;
-    padding-top: 62px;
-    text-align: left;
-    padding-left: 450px;
-}
-
-.login-box .sub {
-    font-size: 13px;
-    padding-left: 535px;
+.formgap {
+    padding: 5px;
 }
 
 .borang-content p{
     font-size: 11px;
+    padding-left: 20px;
 }
 
-/* login */
-.login-box input[type=text] {
+.signup-box input[type=text] {
     border-radius: 5px;
     border: none;
-    padding: 5px 10px;
+    padding: 2px 10px;
+    width: 215px;
 }
 
-
-
-img {
-    width: 400px;
-    height: 400px;
-    float: left;
-}
 
 
 
