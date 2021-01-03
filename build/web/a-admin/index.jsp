@@ -87,7 +87,7 @@
            </tbody>
          </table>
         </div>
-    <script type="text/javascript" src="../js/table.js"></script>
+  <!--semua table-->
   <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
   <!-- Bootstrap tooltips -->
   <script type="text/javascript" src="../js/popper.min.js"></script>
@@ -96,11 +96,13 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="../js/mdb.min.js"></script>
   <script type="text/javascript" src="../js/addons/datatables.min.js"></script>
+  <!-- sidebar tunjuk anak2-->
   <script>
       $('.feat-btn').click(function(){
           $('.sidebar ul .feat-show').toggleClass("show");
       });
   </script>
+  <!--table-->
   <script>
   function checkAll(bx) {
   var cbs = document.getElementsByTagName('input');
