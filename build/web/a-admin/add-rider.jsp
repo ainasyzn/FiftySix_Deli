@@ -52,42 +52,49 @@
             </div>
         </header>  
         <main>
-    
-          <table id="dt-basic-checkbox" class="table table-striped table-bordered" cellspacing="0" width="100%">
-          <thead>
-                <tr>
-                 <th><input type="checkbox" onClick="checkAll(this)"></th>
-                 <th>No</th>
-                 <th>Rider Name</th>
-                 <th>IC</th>
-                 <th>Phone No.</th>
-                 <th>Plate No.</th>
-                 <th>Reg. Date
-                  <th>Status</th>
-                 <th>Action</th>
-                </tr>
-           </thead>
-           <tbody>
-                <tr>
-                 <td><input type="checkbox" name=""></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td>
-                    <center>
-                        <i class="fas fa-check"aria-hidden="true" style="color:green"></i> &nbsp
-                        <i class="fas fa-times" aria-hidden="true" style="color:red"></i>
-                    </center>
-                 </td>
-                </tr>
-           </tbody>
-         </table>
+            <div class="register-container">
+            <div class="heading">
+                <h4>Rider Registration</h4>
+            </div>
+                <table>
+                    <form>
+                    <tr>
+                        <td>Rider Name</td>
+                        <td>IC</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="riderName"></td>
+                        <td><input type="text" name="riderIC"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>Plate no.</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="riderPhone"></td>
+                        <td><input type="text" name="plateNo"></td>
+                    </tr>
+                    <tr>
+                        <td>Registration date</td>
+                        <td>Status</td>
+                    </tr>
+                    <tr>
+                        <td><input type="date" name="regDate"></td>
+                        <td><input type="text" name="status"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" name="save" value="Save">
+                        </td>
+                    </tr>
+                    
+                    </form>
+                </table>
+            </div>
+        </main>
         </div>
-  <!--semua table-->
+    <script type="text/javascript" src="../js/table.js"></script>
   <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
   <!-- Bootstrap tooltips -->
   <script type="text/javascript" src="../js/popper.min.js"></script>
@@ -96,13 +103,11 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="../js/mdb.min.js"></script>
   <script type="text/javascript" src="../js/addons/datatables.min.js"></script>
-  <!-- sidebar tunjuk anak2-->
   <script>
       $('.feat-btn').click(function(){
           $('.sidebar ul .feat-show').toggleClass("show");
       });
   </script>
-  <!--table-->
   <script>
   function checkAll(bx) {
   var cbs = document.getElementsByTagName('input');
