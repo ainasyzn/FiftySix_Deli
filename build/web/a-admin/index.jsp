@@ -28,7 +28,7 @@
                 <li><a href="index.jsp">Home</a></li>
                 <li><a href="manage-menu.jsp">Manage Menu</a></li>
                 <li class="active">
-                    <a href="#" class="feat-btn">Manage User
+                    <a href="manage-user.jsp" class="feat-btn">Manage User
                         <span class="fas fa-caret-down"></span>
                     </a>
                 </li>
@@ -51,7 +51,7 @@
               </h5>
             </div>
         </header>  
-        <main><br><br><br>
+        <main>
     
           <table id="dt-basic-checkbox" class="table table-striped table-bordered" cellspacing="0" width="100%">
           <thead>
