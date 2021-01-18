@@ -1,4 +1,4 @@
-
+<%@page import="java.sql.*"%>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -15,6 +15,7 @@
 </head>
 
 <body>  
+    
     <div class="sidebar">
         <div class="sidebar-user">
             <img src="../image/fox.png">
@@ -27,7 +28,7 @@
             <ul>
                 <li><a href="index.jsp">Home</a></li>
                 <li><a href="manage-menu.jsp">Manage Menu</a></li>
-                <li class="active">
+                <li>
                     <a href="manage-user.jsp" class="feat-btn">Manage User
                         <span class="fas fa-caret-down"></span>
                     </a>
@@ -36,7 +37,7 @@
                     <li><a href="#">Rider</a></li>
                     <li><a href="manage-cust">Customer</a></li>
                 </ul>
-                <li><a href="manage-order.jsp">Manage Order</a></li>
+                <li class="active"><a href="manage-order.jsp">Manage Order</a></li>
                 <li><a href="report.jsp">Report</a></li>
                 <li><a href="">Logout</a></li>
             </ul>
@@ -51,24 +52,35 @@
               </h5>
             </div>
         </header>  
-        <main>
-    
+        <main><br><br><br>
+            <h4>List of Orders</h4>
           <table id="dt-basic-checkbox" class="table table-striped table-bordered" cellspacing="0" width="100%">
           <thead>
                 <tr>
                  <th><input type="checkbox" onClick="checkAll(this)"></th>
                  <th>No</th>
-                 <th>Rider Name</th>
-                 <th>IC</th>
+                 <th>Customer Name</th>
                  <th>Phone No.</th>
-                 <th>Plate No.</th>
-                 <th>Reg. Date
-                  <th>Status</th>
+                 <th>Address</th>
+                 <th>Order Item</th>
+                 <th>Order ID</th>
+                 <th>Status</th>
                  <th>Action</th>
                 </tr>
            </thead>
+           <%@page import="java.sql.*"%>
+            <%@ page import = "java.io.*"%>
+                <%
+                    try{
+                Class.forName("oracle.jdbc.OracleDriver");
+                Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","henshin","system");
+                Statement st=con.createStatement();
+                String sql = "SELECT * from customer,order_details ";
+                ResultSet rs = st.executeQuery(sql);
+                while(rs.next()){
+                %>
            <tbody>
-                <tr>
+              <tr>
                  <td><input type="checkbox" name=""></td>
                  <td></td>
                  <td></td>
@@ -77,17 +89,24 @@
                  <td></td>
                  <td></td>
                  <td></td>
-                 <td>
-                    <center>
-                        <i class="fas fa-check"aria-hidden="true" style="color:green"></i> &nbsp
-                        <i class="fas fa-times" aria-hidden="true" style="color:red"></i>
+                <td>
+                <center>
+                        <a href="assign-rider.jsp"><button class="buttons btn2" >Asssign Rider</button></a>
                     </center>
                  </td>
-                </tr>
+		</tr>
            </tbody>
+           <%
+		}
+		con.close();
+		} catch (Exception e) {
+		e.printStackTrace();
+		}
+		%>
          </table>
+        </main>
         </div>
-  <!--semua table-->
+    <script type="text/javascript" src="../js/table.js"></script>
   <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
   <!-- Bootstrap tooltips -->
   <script type="text/javascript" src="../js/popper.min.js"></script>
@@ -96,13 +115,11 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="../js/mdb.min.js"></script>
   <script type="text/javascript" src="../js/addons/datatables.min.js"></script>
-  <!-- sidebar tunjuk anak2-->
   <script>
       $('.feat-btn').click(function(){
           $('.sidebar ul .feat-show').toggleClass("show");
       });
   </script>
-  <!--table-->
   <script>
   function checkAll(bx) {
   var cbs = document.getElementsByTagName('input');
