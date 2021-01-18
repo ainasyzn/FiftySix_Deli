@@ -9,8 +9,9 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard</title>
+    <title>FiftySix | Home</title>
     <!--icons-->
+    <link rel="shortcut icon" href="image/logo-56.jpg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -24,9 +25,9 @@
                 </h5>
             </div>
             <ul>
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#news">Menu</a></li>
-                <li><a href="#contact">About Us</a></li>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="menu.jsp">Menu</a></li>
+                <li><a href="#">About Us</a></li>
                 <li><a href="login.jsp">Log in</a></li>
             </ul>
         </header>

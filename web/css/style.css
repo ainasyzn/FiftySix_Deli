@@ -166,44 +166,6 @@ hr {
 .btnDelete {
     background-color: #FF0000;
 }
-/*
-.sorting {
-    left: 500;
-    border-radius: 5px;
-    width: 700px;
-    height: 76px;
-    background-color: #FFF;
-    box-shadow: 0 4px 2px -2px rgb(131, 128, 128);
-    position: fixed;
-    top: 72;
-    left: 460;
-    right: 500;
-    display: inline-block;
-}
-
-.sorting .quizTot {
-    text-align: center;
-    height: 76px;
-    width: 156px;
-    padding: 30px;
-    border-right: 1px solid  #DBD5D5;
-    float: left;
-}
-
-.sorting .sortBy {
-    width: 545px;
-    height: 76px;
-    font-size: 14px;
-    text-align: center;
-    padding: 30px;
-    margin-left: 146px;
-}
-
-.sorting .sortBy p {
-    display:inline;
-    padding: 10px;
-}
-*/
 
 ul {
     list-style-type: none;
@@ -262,7 +224,7 @@ ul li a {
 }
 
 /* login */
-.login-box input[type=text] {
+.login-box input[type=text], input[type=password] {
     border-radius: 5px;
     border: none;
     padding: 5px 10px;

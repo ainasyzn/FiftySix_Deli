@@ -24,65 +24,6 @@ and open the template in the editor.
     box-sizing: border-box;
 }
 
-/*kalau perlu guna*/
-.sidebar {
-    height: calc(100% - 60px);
-    width: 270px;
-    position: fixed;
-    left: 0;
-    top: 78px;
-    z-index: 100;
-    background: #fff;
-    color: var(--text-grey);
-    overflow-y: auto;
-    box-shadow: -5px 0 15px 0 rgb(54, 54, 54);
-}
-
-.sidebar-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 0rem 1rem;
-}
-
-.siderbar-menu {
-    padding: 1rem;
-}
-
-.sidebar li {
-    text-align: center;
-    padding-top: 13px;
-    padding-bottom: 13px;
-}
-
-.sidebar a {
-    color: var(--text-grey);
-    font-size: .9rem;
-}
-
-.sidebar a span:last-child {
-    padding-left: .6rem;
-}
-
-.sidebar-user {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-}
-/*kalau perlu guna
-
-img {
-    border-radius: 50%;
-    height: 74px;
-    width: 72px;
-}
-*/
-
-.user-image {
-    padding-top: 20px;
-}
-
 .main-content {
     position: relative;
     padding-left: 80px;
@@ -165,44 +106,6 @@ hr {
 .btnDelete {
     background-color: #FF0000;
 }
-/*
-.sorting {
-    left: 500;
-    border-radius: 5px;
-    width: 700px;
-    height: 76px;
-    background-color: #FFF;
-    box-shadow: 0 4px 2px -2px rgb(131, 128, 128);
-    position: fixed;
-    top: 72;
-    left: 460;
-    right: 500;
-    display: inline-block;
-}
-
-.sorting .quizTot {
-    text-align: center;
-    height: 76px;
-    width: 156px;
-    padding: 30px;
-    border-right: 1px solid  #DBD5D5;
-    float: left;
-}
-
-.sorting .sortBy {
-    width: 545px;
-    height: 76px;
-    font-size: 14px;
-    text-align: center;
-    padding: 30px;
-    margin-left: 146px;
-}
-
-.sorting .sortBy p {
-    display:inline;
-    padding: 10px;
-}
-*/
 
 ul {
     list-style-type: none;
@@ -257,7 +160,7 @@ ul li a {
     padding-left: 20px;
 }
 
-.signup-box input[type=text] {
+.signup-box input[type=text],input[type=password] {
     border-radius: 5px;
     border: none;
     padding: 2px 10px;
