@@ -123,15 +123,11 @@ header {
 }
 
 main {
-    padding-top: 80px;
+    padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
     background: var(--background);
-    min-height: 100vh;
-}
-
-.heading {
-    padding-top: 50px;
+    min-height: 200vh;
 }
 
 h3{
@@ -169,16 +165,17 @@ hr {
     font-family: 'Poppins', sans-serif;
     color: #FFF;
     font-size: 16px;
+    font-weight: 5px;
     outline: none;
 }
 
 .btn1 {
-    background-color: var(--main-color);
+    background-color: #A64AC9;
     position: fixed;
     bottom: 25px;
     right: 70px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50;
+    padding-right: 50px;
 }
 
 .button span {
@@ -222,18 +219,6 @@ a {
 
 a:hover, a:focus {
 	color: #000;
-}
-
-.register-container {
-    width: 100%;
-    max-height: 100%;
-    background-color: #FFF;
-    border: none;
-    box-shadow: 0 4px 5px -2px rgb(131, 128, 128);
-    padding: 0px 30px;
-    padding-bottom: 30px;
-    margin: 30px 0px;
-    border-radius: 5px;
 }
 
 

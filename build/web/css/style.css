@@ -224,7 +224,7 @@ ul li a {
 }
 
 /* login */
-.login-box input[type=text], input[type=password] {
+.login-box input[type=text] {
     border-radius: 5px;
     border: none;
     padding: 5px 10px;

@@ -1,6 +1,12 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package henshin.controller;
 
 import java.io.*;
+import javax.servlet.annotation.WebServlet;
 import java.security.NoSuchAlgorithmException;
 import javax.servlet.*;
 import javax.servlet.http.*;
