@@ -51,7 +51,7 @@
               </h5>
             </div>
         </header>  
-        <main><br><br><br>
+        <main>
     
           <table id="dt-basic-checkbox" class="table table-striped table-bordered" cellspacing="0" width="100%">
           <thead>

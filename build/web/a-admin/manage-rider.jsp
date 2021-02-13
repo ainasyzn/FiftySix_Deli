@@ -52,6 +52,12 @@
             </div>
         </header>  
         <main>
+            
+            <div class="heading">
+                <h4>List of Riders</h4>
+                <a href="add-rider.jsp"><button class="button btn1">Register Rider</button></a>
+            </div>
+              
     
           <table id="dt-basic-checkbox" class="table table-striped table-bordered" cellspacing="0" width="100%">
           <thead>
@@ -86,8 +92,9 @@
                 </tr>
            </tbody>
          </table>
+        </main>
         </div>
-  <!--semua table-->
+    <script type="text/javascript" src="../js/table.js"></script>
   <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
   <!-- Bootstrap tooltips -->
   <script type="text/javascript" src="../js/popper.min.js"></script>
@@ -96,13 +103,11 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="../js/mdb.min.js"></script>
   <script type="text/javascript" src="../js/addons/datatables.min.js"></script>
-  <!-- sidebar tunjuk anak2-->
   <script>
       $('.feat-btn').click(function(){
           $('.sidebar ul .feat-show').toggleClass("show");
       });
   </script>
-  <!--table-->
   <script>
   function checkAll(bx) {
   var cbs = document.getElementsByTagName('input');

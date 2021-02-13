@@ -48,7 +48,7 @@
                         
                         Password:
                         <div>
-                            <input type="text" name="pasword">
+                            <input type="password" name="pasword">
                         </div><br>
                         
                         <p>Don't have an account yet? <a href="signup.jsp">Sign up</a></p>
