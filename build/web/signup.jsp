@@ -53,13 +53,13 @@
                         
                         Password:
                         <div class="formgap">
-                            <input type="password" name="password"><br>
+                            <input type="text" name="password"><br>
                         </div>
                         
-                        <!--Confirm Password:
+                        Confirm Password:
                         <div class="formgap">
                             <input type="text" name="confirm-password"><br>
-                        </div><br-->
+                        </div><br>
                         
                         
                         <p>Already have an account? <a href="login.jsp">Log in</a></p>
@@ -68,7 +68,8 @@
                     </div>
                    </form>
                 </div>
-            </div>   
+            </div>
+        
     </div>
 </body>
 </html>
